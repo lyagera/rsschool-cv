@@ -10,7 +10,110 @@
 </head>
 
 <body>
-    <h1>Hello</h1>
+
+    <header class="header">
+        <ul>
+            <li>
+                <a href="#contact">1</a>
+            </li>
+            <li>
+                <a href="#about">2</a>
+            </li>
+            <li>
+                <a href="#skills">3</a>
+            </li>
+            <li>
+                <a href="#code">4</a>
+            </li>
+            <li>
+                <a href="#education">5</a>
+            </li>
+            <li>
+                <a href="#experience">6</a>
+            </li>
+            <li>
+                <a href="#english">7</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h1>Olexander Lyagera</h1>
+        </section>
+        <section id="contact">
+            <h2> Contacts for communication</h2>
+            <ul>
+                <li>Location: Lviv, Ukraine</li>
+                <li>Phone: +380 67 674-10-61</li>
+                <li>Email: slyagera@gmail.com</li>
+                <li>GitHub: lyagera</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I worked as a design engineer. I really need in activities where I can develop during my life. My goal is
+                to gain knowledge in the field of front-end development.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML (Basic)</li>
+                <li>CSS (Basic)</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git/GitHub (Basic)</li>
+                <li>Photoshop, Solidworks, Kompas</li>
+            </ul>
+        </section>
+        <section id="code">
+
+            <h2>Code Examples</h2>
+            <pre>
+                <code>
+                    function alphabetPosition(text) {
+                        const arr = [];
+                        let string = "";
+                        for (let i = 0; i < text.length; i++) {
+                          if (
+                            text.charCodeAt(i) < 65 ||
+                            (text.charCodeAt(i) > 90 && text.charCodeAt(i) < 97) ||
+                            text.charCodeAt(i) > 122
+                          ) {
+                            continue;
+                          } else if (text.charCodeAt(i) > 96) {
+                            arr.push(text.charCodeAt(i) - 96);
+                          } else if (text.charCodeAt(i) > 64) {
+                            arr.push(text.charCodeAt(i) - 64);
+                          }
+                        }
+                        return arr.join(" ");
+                      }
+                </code>
+            </pre>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li>SoftServe CS50 Marathon</li>
+                <li>Udemy <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <a href="https://lyagera.github.io/rsschool-cv/cv">Markdown & Git</a>
+        </section>
+        <section id="english">
+            <h2>English</h2>
+            <p>English - A2 (B1 in process…)</p>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <img src="asset/img/rs_school_js.svg" alt="Logo RS-School" height="20">
+        <a href="https://lyagera.github.io/rsschool-cv/">link to the course</a>
+    </footer>
 </body>
 
 </html>
