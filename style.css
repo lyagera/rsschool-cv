@@ -1,0 +1,26 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  padding: 4px 16px;
+  margin: 1px auto;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 12px;
+  color: yellow;
+}
+.header {
+  background-color: blue;
+}
+.footer {
+  background-color: yellow;
+  color: blue;
+  padding: 4px 16px;
+  display: flex;
+  justify-content: space-between;
+}
