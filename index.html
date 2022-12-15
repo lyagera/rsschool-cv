@@ -10,35 +10,37 @@
 </head>
 
 <body>
-
     <header class="header">
-        <ul>
-            <li>
-                <a href="#contact">1</a>
-            </li>
-            <li>
-                <a href="#about">2</a>
-            </li>
-            <li>
-                <a href="#skills">3</a>
-            </li>
-            <li>
-                <a href="#code">4</a>
-            </li>
-            <li>
-                <a href="#education">5</a>
-            </li>
-            <li>
-                <a href="#experience">6</a>
-            </li>
-            <li>
-                <a href="#english">7</a>
-            </li>
-        </ul>
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#code">Code</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#english">English</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section class="name">
             <h1>Olexander Lyagera</h1>
+            <img src="asset/img/photo.png" height="50" alt="Photo Lyagera">
         </section>
         <section id="contact">
             <h2> Contacts for communication</h2>
@@ -65,17 +67,16 @@
             </ul>
         </section>
         <section id="code">
-
             <h2>Code Examples</h2>
             <pre>
                 <code>
                     function alphabetPosition(text) {
                         const arr = [];
                         let string = "";
-                        for (let i = 0; i < text.length; i++) {
+                        for (let i = 0; i &lt; text.length; i++) {
                           if (
-                            text.charCodeAt(i) < 65 ||
-                            (text.charCodeAt(i) > 90 && text.charCodeAt(i) < 97) ||
+                            text.charCodeAt(i) &lt; 65 ||
+                            (text.charCodeAt(i) > 90 && text.charCodeAt(i) &lt; 97) ||
                             text.charCodeAt(i) > 122
                           ) {
                             continue;
@@ -111,8 +112,9 @@
         </section>
     </main>
     <footer class="footer" id="footer">
-        <img src="asset/img/rs_school_js.svg" alt="Logo RS-School" height="20">
-        <a href="https://lyagera.github.io/rsschool-cv/">link to the course</a>
+
+        <a href="https://rs.school/js/"><img src="asset/img/rs_school_js.svg" alt="Logo RS-School" height="20"></a>
+        <a href="https://lyagera.github.io/rsschool-cv">lyagera.github.io/rsschool-cv-2022</a>
     </footer>
 </body>
 
