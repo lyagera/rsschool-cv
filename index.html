@@ -2,58 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>HTML, CSS &amp; Git Basics</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML, CSS &amp; Git Basics</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#code">Code</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#english">English</a>
-        </nav>
-    </header>
-    <main>
-        <section class="name">
-            <h1>Olexander Lyagera</h1>
-            <img src="asset/img/photo.png" height="50" alt="Photo Lyagera">
-        </section>
-        <section id="contact">
-            <h2> Contacts for communication</h2>
-            <ul>
-                <li>Location: Lviv, Ukraine</li>
-                <li>Phone: +380 67 674-10-61</li>
-                <li>Email: slyagera@gmail.com</li>
-                <li>Discord: Olexander Lyagera</li>
-                <li>GitHub: lyagera</li>
-            </ul>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I worked as a design engineer. I really need in activities where I can develop during my life. My goal is
-                to gain knowledge in the field of front-end development.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML (Basic)</li>
-                <li>CSS (Basic)</li>
-                <li>JavaScript (Basic)</li>
-                <li>Git/GitHub (Basic)</li>
-                <li>Photoshop, Solidworks, Kompas</li>
-            </ul>
-        </section>
-        <section id="code">
-            <h2>Code Examples</h2>
-            <pre>
+  <header class="header">
+    <nav class="nav">
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#code">Code</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#english">English</a>
+    </nav>
+  </header>
+  <main>
+    <section class="name">
+      <h1>Olexander Lyagera</h1>
+      <img src="asset/img/photo.png" height="50" alt="Photo Lyagera">
+    </section>
+    <section id="contact">
+      <h2> Contacts for communication</h2>
+      <ul>
+        <li>Location: Lviv, Ukraine</li>
+        <li>Phone: +380 67 674-10-61</li>
+        <li>Email: slyagera@gmail.com</li>
+        <li>Discord: Olexander Lyagera</li>
+        <li>GitHub: lyagera</li>
+      </ul>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I worked as a design engineer. I really need in activities where I can develop during my life. My goal is
+        to gain knowledge in the field of front-end development.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML (Basic)</li>
+        <li>CSS (Basic)</li>
+        <li>JavaScript (Basic)</li>
+        <li>Git/GitHub (Basic)</li>
+        <li>Photoshop, Solidworks, Kompas</li>
+      </ul>
+    </section>
+    <section id="code">
+      <h2>Code Examples</h2>
+      <pre>
                 <code>
                     function alphabetPosition(text) {
                         const arr = [];
@@ -61,13 +61,13 @@
                         for (let i = 0; i &lt; text.length; i++) {
                           if (
                             text.charCodeAt(i) &lt; 65 ||
-                            (text.charCodeAt(i) > 90 && text.charCodeAt(i) &lt; 97) ||
-                            text.charCodeAt(i) > 122
+                            (text.charCodeAt(i) &gt; 90 &amp;&amp; text.charCodeAt(i) &lt; 97) ||
+                            text.charCodeAt(i) &gt; 122
                           ) {
                             continue;
-                          } else if (text.charCodeAt(i) > 96) {
+                          } else if (text.charCodeAt(i) &gt; 96) {
                             arr.push(text.charCodeAt(i) - 96);
-                          } else if (text.charCodeAt(i) > 64) {
+                          } else if (text.charCodeAt(i) &gt; 64) {
                             arr.push(text.charCodeAt(i) - 64);
                           }
                         }
@@ -75,31 +75,31 @@
                       }
                 </code>
             </pre>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <ol>
-                <li>SoftServe CS50 Marathon</li>
-                <li>Udemy <ul>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </li>
-            </ol>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <a href="https://lyagera.github.io/rsschool-cv/cv">Markdown & Git</a>
-        </section>
-        <section id="english">
-            <h2>English</h2>
-            <p>English - A2 (B1 in process…)</p>
-        </section>
-    </main>
-    <footer class="footer" id="footer">
-        <a href="https://rs.school/js/"><img src="asset/img/rs_school_js.svg" alt="Logo RS-School" height="20"></a>
-        <a href="https://lyagera.github.io/rsschool-cv">lyagera.github.io/rsschool-cv 2022</a>
-    </footer>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ol>
+        <li>SoftServe CS50 Marathon</li>
+        <li>Udemy <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <a href="https://lyagera.github.io/rsschool-cv/cv">Markdown &amp; Git</a>
+    </section>
+    <section id="english">
+      <h2>English</h2>
+      <p>English - A2 (B1 in process…)</p>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <a href="https://rs.school/js/"><img src="asset/img/rs_school_js.svg" alt="Logo RS-School" height="20"></a>
+    <a href="https://lyagera.github.io/rsschool-cv">lyagera.github.io/rsschool-cv 2022</a>
+  </footer>
 </body>
 
 </html>
